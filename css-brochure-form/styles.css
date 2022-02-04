@@ -1,0 +1,54 @@
+h2 {
+  text-align: center;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 450;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+  color: rgb(243 77 77);
+}
+
+input {
+  margin: 3px 750px 17px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-style: solid;
+}
+
+label {
+  margin: 750px;
+  padding: 5px;
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: AtlasGrotesk;
+  font-style: normal;
+  font-weight: 800;
+  src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
+  font-size: 11px;
+}
+
+label > select {
+  width: 435px;
+  margin: 3px 750px 17px;
+  border-radius: 5px;
+  border-color: lightgray;
+  border-style: solid;
+  padding: 10px 50px 10px 0;
+  border-width: 2.5px;
+}
+
+div > input {
+  margin: 1px 1090px 17px;
+  border-radius: 500px;
+  width: 100px;
+  padding: 5px;
+  color: white;
+  background-color: rgb(243 77 77);
+  border-color: rgb(243 77 77);
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+  font-family: "Brandon Grotesque";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  src: url("BrandonGrotesque-Medium.woff2") format("woff2");
+}
