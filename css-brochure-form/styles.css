@@ -1,7 +1,6 @@
 h2 {
   text-align: center;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", cursive;
   font-style: normal;
   font-weight: 450;
   src: url("BrandonGrotesque-Medium.woff2") format("woff2");
@@ -19,8 +18,7 @@ input {
 label {
   margin: 750px;
   padding: 5px;
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: AtlasGrotesk;
+  font-family: AtlasGrotesk, sans-serif;
   font-style: normal;
   font-weight: 800;
   src: url("AtlasGrotesk-Light-Web.woff2") format("woff2");
@@ -45,8 +43,7 @@ div > input {
   color: white;
   background-color: rgb(243 77 77);
   border-color: rgb(243 77 77);
-  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
-  font-family: "Brandon Grotesque";
+  font-family: "Brandon Grotesque", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
