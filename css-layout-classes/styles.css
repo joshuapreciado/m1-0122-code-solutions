@@ -1,0 +1,28 @@
+h1 {
+  padding-left: 35rem;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-third {
+  flex-basis: calc(100% / 3);
+}
+
+.column-one-quarter {
+  flex-basis: calc(100% / 4);
+}
