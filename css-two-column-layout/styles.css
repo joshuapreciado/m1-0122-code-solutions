@@ -1,0 +1,80 @@
+section {
+  padding-top: 2px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h1 {
+  padding-top: 25px;
+  text-align: center;
+  font-size: 43px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+p {
+  font-size: 12px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(90 88 88);
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 12px;
+  padding-top: 20px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 12px;
+  padding-top: 20px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 12px;
+  padding-top: 20px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 12px;
+  padding-top: 20px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+button {
+  margin-left: 535px;
+  border: solid;
+  border-color: rgb(201 64 64);
+  color: rgb(201 64 64);
+  background-color: white;
+  padding: 8px 40px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.row {
+  display: flex;
+  flex-basis: calc(100% / 2);
+  padding-left: 230px;
+  padding-bottom: 40px;
+}
