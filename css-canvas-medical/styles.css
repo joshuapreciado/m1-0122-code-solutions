@@ -1,0 +1,277 @@
+.container {
+  border-bottom: 1px solid lightgray;
+  height: 95px;
+  flex-wrap: nowrap;
+}
+
+.row {
+  display: flex;
+}
+
+.canvas {
+  margin-left: 22rem;
+}
+
+.product > p {
+  margin: 55px 375px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.implementation > p {
+  left: 950px;
+  top: 41px;
+  position: absolute;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.aboutus > p {
+  left: 1100px;
+  top: 42px;
+  position: absolute;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.blog > p {
+  right: 680px;
+  top: 43px;
+  position: absolute;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.button-one > button {
+  position: absolute;
+  right: 570px;
+  top: 51px;
+  padding: 7px;
+  color: rgb(255 255 255 / 82.2%);
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+}
+
+.hero > img {
+  margin-left: 350px;
+}
+
+.hero > .overlay {
+  background-color: rgb(85 85 85);
+  opacity: 0.3;
+  position: absolute;
+  margin-left: 350px;
+  height: 500px;
+  width: 1000px;
+}
+
+.herosection {
+  position: absolute;
+  top: 170px;
+  left: 400px;
+  font-size: 30px;
+  color: white;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.paragraph-for-reimagined {
+  position: absolute;
+  top: 280px;
+  left: 400px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.button-two > button {
+  position: absolute;
+  left: 400px;
+  top: 490px;
+  padding: 13px 40px;
+  color: rgb(255 255 255 / 82.2%);
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.clinciansprefer {
+  background-color: rgb(226 224 224 / 27.4%);
+  height: 500px;
+  width: 1200px;
+  margin-top: 3rem;
+  margin-left: 16rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.headingforprefer > p {
+  font-size: 30px;
+  position: absolute;
+  top: 730px;
+  left: 715px;
+  color: #525351;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.textforprefer {
+  position: absolute;
+  top: 798px;
+  left: 660px;
+  text-align: center;
+  color: #737472;
+}
+
+.column-one {
+  flex-direction: column;
+  line-height: 1.6;
+  margin: 250px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  text-align: left;
+}
+
+.column-two {
+  flex-direction: column;
+  position: absolute;
+  top: 910px;
+  right: 670px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.learn-more {
+  position: absolute;
+  left: 420px;
+  font-size: 25px;
+  color: #525351;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.schedule {
+  position: absolute;
+  top: 1232px;
+  right: 1283px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #737472;
+  font-size: 14px;
+}
+
+.button-three > button {
+  position: absolute;
+  top: 1220px;
+  right: 570px;
+  padding: 13px 45px;
+  color: rgb(255 255 255 / 82.2%);
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.lastsection {
+  width: 1200px;
+  height: 380px;
+  background-color: #525351;
+  position: absolute;
+  top: 1300px;
+  left: 250px;
+}
+
+.canvasimage2 {
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.column-three {
+  position: absolute;
+  top: 100px;
+  right: 485px;
+  flex-direction: column;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.column-four {
+  position: absolute;
+  top: 100px;
+  right: 225px;
+  flex-direction: column;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.termscontact {
+  width: 1200px;
+  height: 135px;
+  position: absolute;
+  left: 250px;
+  top: 1680px;
+  background-color: rgb(226 224 224 / 27.4%);
+}
+
+.terms {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  font-size: 14px;
+}
+
+.contactus {
+  position: absolute;
+  top: 45px;
+  left: 223px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  font-size: 14px;
+}
