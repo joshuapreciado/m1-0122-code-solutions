@@ -1,0 +1,224 @@
+
+section {
+  border-bottom: 1px solid lightgray;
+  height: 110px;
+}
+
+.row {
+  display: flex;
+  justify-content: left;
+}
+
+.column-image {
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-right: 40px;
+}
+
+.column-one {
+  column-width: 15%;
+  margin-left: 10px;
+  margin-top: 17px;
+  padding: 33px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.button-one > button {
+  column-width: 15%;
+  height: 38px;
+  width: 99px;
+  margin-top: 53px;
+  margin-left: 1px;
+  padding: 9px;
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ece7e7;
+}
+
+.column-two-half {
+  margin: 50px;
+  margin-left: 300px;
+}
+
+.overlay {
+  background-color: rgb(85 85 85);
+  opacity: 0.3;
+  position: absolute;
+  height: 550px;
+  width: 1100px;
+}
+
+.column-two-heading {
+  position: absolute;
+  left: 370px;
+  top: 210px;
+  font-size: 30px;
+  color: white;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.column-two-text {
+  position: absolute;
+  left: 370px;
+  top: 320px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.button-two > button {
+  position: absolute;
+  top: 526px;
+  left: 370px;
+  width: 150px;
+  height: 40px;
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ece7e7;
+}
+
+.thirdsection {
+  background-color: rgb(226 224 224 / 27.4%);
+  height: 530px;
+  width: 1200px;
+  margin-left: 16rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.column-three {
+  text-align: center;
+  padding-top: 80px;
+  color: #525351;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.column-three-text {
+  line-height: 1.8;
+  text-align: center;
+   color: #737472;
+}
+
+.column4 {
+  display: flex;
+  justify-content: left;
+}
+
+.column-four {
+  text-align: center;
+  flex-basis: calc(100% / 2);
+  margin: 55px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  line-height: 1.6;
+}
+
+.column5 {
+  margin-left: 350px;
+}
+
+.column-five {
+  font-size: 25px;
+  color: #525351;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.column-five-half {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #737472;
+  font-size: 14px;
+  line-height: 0;
+}
+
+.button-three > button {
+  margin-left: 650px;
+  margin-top: 35px;
+  height: 40px;
+  width: 150px;
+  background-color: #294464;
+  border-style: solid;
+  border-color: #294464;
+  border-radius: 5px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ece7e7;
+}
+
+.column6 {
+  width: 1200px;
+  height: 380px;
+  background-color: #525351;
+  margin-left: 255px;
+  margin-top: 35px;
+  display: flex;
+  justify-content: left;
+  flex-wrap: nowrap;
+}
+
+.canvas-logo2 {
+  margin-top: 134px;
+  margin-left: 135px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+
+.column-six-half  {
+  margin-left: 230px;
+  margin-top: 120px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  color: rgb(255 255 255 / 82.2%);
+}
+
+.column7 {
+  width: 1200px;
+  height: 105px;
+  background-color: rgb(226 224 224 / 27.4%);
+  margin-left: 255px;
+  margin-top: 1px;
+  display: flex;
+}
+.column-seven {
+  margin: 20px 60px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #7a7a79;
+  font-size: 14px;
+}
