@@ -18,7 +18,7 @@
 .column-one {
   margin: auto;
   column-width: 100%;
-  flex-basis: calc(100% / 9);
+  flex-basis: fit-content;
 }
 
 .column-two {
