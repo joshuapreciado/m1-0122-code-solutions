@@ -1,0 +1,45 @@
+.container {
+  background-color: #F7F8FA;
+  width: 1300px;
+  height: 650px;
+  margin: auto;
+}
+
+.heading {
+  margin-left: 600px;
+  padding-top: 2px;
+  font-size: 13px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one {
+  margin: auto;
+  column-width: 100%;
+  flex-basis: calc(100% / 9);
+}
+
+.column-two {
+  margin: auto;
+  column-width: 100%;
+}
+
+.column-three {
+  margin: auto;
+  font-family: 'Barlow', sans-serif;
+  column-width: 100%;
+}
+
+.column-four {
+  margin: auto;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  column-width: 100%;
+}
+
+.heading {
+  font-family: 'Barlow', serif;
+  font-weight: 1500;
+}
