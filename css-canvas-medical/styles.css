@@ -51,7 +51,7 @@ section {
 }
 
 .overlay {
-  background-color: rgb(85 85 86);
+  background-color: rgb(85 85 85);
   opacity: 0.3;
   position: absolute;
   height: 550px;
