@@ -42,7 +42,7 @@ library.push(js);
 
 library.unshift(css);
 
-library.splice(2);
+library.splice(1, js);
 
 console.log('library:', library);
 
