@@ -1,22 +1,27 @@
-var numberOfClick = 0;
-var buttonishot = document.querySelector('.hot-button');
-var clickcounter = document.querySelector('.click-count');
+var numberOfClicks = 0;
+
+var $hotButton = document.querySelector('.hot-button');
+var $clickcounter = document.querySelector('.click-count');
+
+$hotButton.addEventListener('click', handleClick);
+
 function handleClick(event) {
-  numberOfClick++;
-  console.log(numberOfClick);
-  clickcounter.textContent;
-  if (numberOfClick.className < 4) {
-    numberOfClick.className = "cold"
-  } else if (numberOfClick.className < 7) {
-    numberOfClick.className = "cool"
-  } else if (numberOfClick.className < 10) {
-    numberOfClick.className = "tepid"
-  } else if (numberOfClick.className < 13) {
-    numberOfClick.className = "warm"
-  } else if (numberOfClick.className < 16) {
-    numberOfClick.className = "hot"
-  } else if (numberOfClick.className > 16) {
-    numberOfClick.className = "nuclear"
+  numberOfClicks++;
+  var temperature;
+
+  if (numberOfClicks < 4) {
+    temperature = 'cold';
+  } else if (numberOfClicks < 7) {
+    temperature = 'cool';
+  } else if (numberOfClicks < 10) {
+    temperature = 'tepid';
+  } else if (numberOfClicks < 13) {
+    temperature = 'warm';
+  } else if (numberOfClicks < 16) {
+    temperature = 'hot';
+  } else {
+    temperature = 'nuclear';
   }
+  $hotButton.className = 'hot-button ' + temperature;
+  $clickcounter.textContent = 'Clicks: ' + numberOfClicks;
 }
-buttonishot.addEventListener('click', handleClick);
