@@ -1,5 +1,5 @@
 /* exported capitalize */
 function capitalize(word) {
-  var test1 = word.toLowerCase();
-  return word.charAt(0).toUpperCase() + word.slice(1)
+  var test1 = word.toLowerCase()
+  return word.charAt().toUpperCase() + test1.slice(1)
 }
