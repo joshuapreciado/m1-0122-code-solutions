@@ -1,8 +1,7 @@
 /* exported toObject */
 function toObject(keyValuePair) {
-  var test = {}
-  for (var keyValuePair in object) {
-    test.push(keyValuePair);
+  var objectTest = {
+    [keyValuePair[0]]: keyValuePair[1]
   }
-  return test
+  return objectTest
 }
